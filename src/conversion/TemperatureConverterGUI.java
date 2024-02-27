@@ -5,15 +5,6 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-/**
- * This program creates a GUI for converting temperatures from Celsius to Fahrenheit.
- *
- * It provides a main window where users can enter a temperature in Celsius, 
- * perform the conversion by clicking a button, and then displays the result in the window.
- *
- * Made by Ronald Bauer.
-**/
-
 public class TemperatureConverterGUI extends JFrame {
     private JTextField celsiusTextField;
     private JLabel fahrenheitLabel;
